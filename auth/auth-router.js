@@ -64,4 +64,4 @@ function makeToken(user){
     return jwt.sign(payload, jwtSecret, options);
 }
 
-module.exports = router;
+module.exports = router; 

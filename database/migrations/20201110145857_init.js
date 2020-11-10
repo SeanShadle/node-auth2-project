@@ -12,7 +12,7 @@ exports.up = function(knex) {
       tbl.string("password", 256).notNull();
 
       tbl
-        .integer("department")
+        .integer("department") 
         .unsigned()
         .references("department.id")
         .onDelete("RESTRICT")

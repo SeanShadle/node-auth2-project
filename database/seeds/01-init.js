@@ -7,4 +7,4 @@ exports.seed = function(knex){
   return knex("department")
     .insert(department)
     .then(() => console.log("\n== Seed data for department table added. ==\n"));
-};
+}; 
